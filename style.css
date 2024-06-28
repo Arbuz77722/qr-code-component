@@ -11,17 +11,12 @@ body {
   font-family: "Outfit", sans-serif;
   height: 100vh;
   background-color: hsl(212, 45%, 89%);
-}
-.container {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  width: 100%;
-  display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
+
 .qr-code {
   padding: 2rem;
   background-color: hsl(0, 0%, 100%);
@@ -45,4 +40,44 @@ body {
   font-size: 1.5rem;
   font-weight: 400;
   color: hsl(220, 15%, 55%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 1rem;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 375px) {
+  .qr-code {
+    padding: 1.5rem; 
+    max-width: 28rem; 
+  }
+
+  .qr-code h1 {
+    font-size: 1.6rem; 
+  }
+
+  .qr-code p {
+    font-size: 1.4rem; 
+  }
+}
+
+
+@media (min-width: 1440px) {
+  .qr-code {
+    padding: 3rem; 
+    max-width: 35rem; /
+  }
+
+  .qr-code h1 {
+    font-size: 2rem; 
+  }
+
+  .qr-code p {
+    font-size: 1.6rem;
+  }
 }
