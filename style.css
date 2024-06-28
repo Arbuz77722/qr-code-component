@@ -65,19 +65,3 @@ body {
     font-size: 1.4rem; 
   }
 }
-
-
-@media (min-width: 1440px) {
-  .qr-code {
-    padding: 3rem; 
-    max-width: 35rem; /
-  }
-
-  .qr-code h1 {
-    font-size: 2rem; 
-  }
-
-  .qr-code p {
-    font-size: 1.6rem;
-  }
-}
