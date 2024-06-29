@@ -51,17 +51,17 @@ body {
   color: hsl(228, 45%, 44%);
 }
 
-@media (max-width: 375px) {
+@media (max-width: 500px) {
   .qr-code {
     padding: 1.5rem; 
     max-width: 28rem; 
   }
 
-  .qr-code h1 {
+  .qr-code heading {
     font-size: 1.6rem; 
   }
 
-  .qr-code p {
+  .qr-code text {
     font-size: 1.4rem; 
   }
 }
